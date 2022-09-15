@@ -383,7 +383,4 @@ if(condition)
 * 极有可能被循环调用的方法，不建议对参数进行校验。但在方法说明里必须注明外部参数检查。
 * 底层的方法调用频度都比较高，一般不校验。（参数错误不太可能到底层才会暴露问题）
 * 被声明成private只会被自己代码所调用的方法。
-## Creators
-[梅葆瑞](https://github.com/meibaorui)  
-[李辉]()  
-[张锐](https://github.com/pizirui)  
+
